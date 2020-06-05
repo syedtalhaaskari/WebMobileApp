@@ -1,0 +1,7 @@
+blue: #2296fb
+golden: #e8cd00
+pink: #f2295b
+
+footer:
+blue: #000375
+second blue: #002777

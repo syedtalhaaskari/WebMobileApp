@@ -1,0 +1,450 @@
+header {
+    line-height: 4em !important;
+}
+
+.navbar {
+    border-bottom: 4px solid #2296fb;
+}
+
+.navbar-brand img {
+    width: 108px;
+}
+
+.nav-link {
+    color: black !important;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    color: #2296fb !important;
+}
+
+.active a{
+    color: #2296fb !important;
+}
+
+.navbar-toggler {
+    border: 0px !important;
+    color: #2296fb !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(34, 150, 251, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+footer {
+    background-color: #000375;
+    color: white;
+}
+
+footer h2 {
+    font-size: x-large;
+    font-weight: normal;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    background-color: #002777;
+    color: white;
+    border-top: 4px solid #2296fb;
+}
+
+.header {
+    height: 400px;
+    background-image: linear-gradient(to top left, #f2295b, #2296fb);
+}
+ 
+.header>.container {
+    height: inherit;
+}
+
+.header>.container h2 {
+    text-shadow: 7px 15px 10px rgba(0,0,0,0.3);
+}
+
+.image{
+    width: 360px;
+    overflow: hidden;
+}
+
+.profile1 h2 {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    color: #545454;
+}
+
+.profile1 .heading {
+    font-size: 30px;
+    color: #2296fb;
+}
+
+.profile2 .heading {
+    color: #fff;
+}
+
+.profile2 {
+    background-color: transparent;
+    background-image: linear-gradient(160deg, rgba(34, 150, 251, 0.75) 0%, rgba(242, 41, 91, 0.75) 100%);
+}
+
+.services .fa {
+    color: #2296fb;
+    transition: transform .2s;
+}
+
+.services .fa:hover {
+    color: #e8cd00;
+    
+    transform: scale(1.1);
+}
+
+.services u {
+    font-size: 29px;
+}
+
+.services u a {
+    color: #2296fb;
+}
+
+.services p {
+    font-size: 18px;
+    color: #545454;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.services .btn {
+    padding: 12px 24px;
+    font-size: 15px;
+    background-color: #2296fb;
+}
+
+.services .btn:hover {
+    background-color: #e8cd00;
+    border: none;
+}
+
+.services .col-md-5 {
+    height: 360px;
+    padding: 10px;
+    border-bottom: 4px solid #2296fb;
+}
+
+.service1 {
+    animation-delay: 0.5s;
+}
+.service2 {
+    animation-delay: 0.75s;
+}
+
+.services u a:hover {
+    color: #2296fb;
+}
+
+.services {
+    margin-top: -75px;
+    margin-bottom: 20px;
+}
+
+.portfolio .card {
+    padding: 10px;
+    height: auto;
+    width: auto;
+    transition: .3s ease;
+}
+
+.portfolio .card img {
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio .card:hover {
+    border: 5px double #2296fb;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.75);
+    transform: scale(0.99);
+}
+
+.home-header {
+    background-image: linear-gradient(to top left, rgba(242, 41, 91,0.73), rgba(34, 150, 251, 0.73)), url("../images/home/bump-collaboration-colleagues.jpg");
+    background-repeat: no-repeat,no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;
+    background-attachment: scroll, fixed;
+    height: 500px;
+}
+
+.home-header>.container {
+    height: inherit;
+}
+
+.home-header>.container h2 {
+    text-shadow: 7px 15px 10px rgba(0,0,0,0.3);
+    font-size: 108px;
+    margin-bottom: 0px;
+    animation-delay: 0.25s;
+}
+
+.home-header>.container hr {
+    clear:both;
+    display:block;
+    width: 105%;
+    background-color:#FFFFFF;
+    height: 4.5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    animation-delay: 0.5s;
+}
+
+.home-header>.container h1 {
+    font-size: 31px;
+    margin-top: 1px;
+    animation-delay: 0.75s;
+}
+
+.buttons .btn {
+    background-color: #2296fb;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 24px;
+    box-shadow: 9px 6px 11px #333333;
+    border-radius: 3px;
+}
+
+.buttons .btn:hover {
+    background-color: #e8cd00;
+}
+
+.testimonials {
+    height: 500px;
+}
+
+.testimonial-image img {
+    height: 60px;
+    width: 60px;
+}
+
+.testimonial-name {
+    color: #2296fb;
+    font-size: 15px;
+}
+
+.testimonial-job {
+    color: #e8cd00;
+    font-size: 12.75px;
+}
+
+.testimonial1 {
+    border-radius: 24px;
+}
+
+.review {
+    margin: 0px 0px 20px 0px;
+}
+
+.review p {
+    font-size: 19.5px;
+}
+
+.work img {
+    width: 300px;
+    margin: 10px;
+}
+
+.work h2 {
+    color: #2296fb;
+}
+
+.work {
+    padding: 20px;
+}
+
+.card-body .more-info {
+    color: #2296fb;
+    font-size: 12px;
+}
+
+.card-body a:hover {
+    text-decoration: none;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #545454;
+    font-weight: 400;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #2296fb;
+}
+
+.card-body h2 {
+    line-height: 0.8;
+    margin-bottom: 20px !important;
+}
+
+article, .blog-nav {
+    padding: 80.1px 100.05px;
+}
+
+.blog-nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.comments {
+    padding: 60px 100.05px;
+}
+
+.comments textarea {
+    resize: none;
+}
+
+aside {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.blog-post h1 {
+    font-size: 30px;
+    color: #2296fb;
+}
+
+.content, article h1 {
+    margin-top: 20px
+}
+
+.content p {
+    font-size: 15px;
+    color: #545454;
+    line-height: 1.8;
+}
+
+.blog-nav a:hover {
+    text-decoration: none;
+    color: #2296fb
+}
+
+.recent-post h2 {
+    font-size: 21px;
+    color: #545454;
+    margin-bottom: 21px;
+    line-height: 1.5;
+}
+
+.recent-post li a {
+    color: #2296fb;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.comments h3 {
+    font-size: 24px;
+    color: #545454;
+}
+
+.comments .btn {
+    padding: 10px 15px;
+    background-color: #2296fb;
+    width: 150px;
+    font-size: 15px;
+}
+
+.blog-post {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.media img {
+    object-fit: cover;
+    width: 75px;
+    height: 75px;
+    /* background-size:contain; */
+}
+
+.blogs .card {
+    transition: .3s ease;
+}
+
+.blogs .card:hover {
+    transform: scale(1.07);
+}
+
+@media (max-width: 767px) {
+    .header>.container h2 {
+        font-size: 29px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .header {
+        height: 566px;
+    }
+
+    .services .col-md-5 {
+        height: 360px;
+        padding: 10px;
+        border-bottom: none;
+    } 
+
+    .portfolio .card {
+        padding: 10px;
+        height: auto;
+        width: auto;
+        transition: .3s ease;
+    }
+    .portfolio .card img {
+        height: 100%;
+        width: 100%;
+    }
+    .portfolio .card:hover {
+        border: 5px double #2296fb;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.75);
+        transform: scale(0.99);
+    }
+
+    .home-header {
+        height: 566px;
+    }
+    
+    .home-header>.container {
+        height: inherit;
+    }
+    
+    .home-header>.container h2 {
+        font-size: 85px !important;
+        margin-bottom: 0px;
+    }
+    
+    .home-header>.container h1 {
+        font-size: 24px !important;
+    }
+
+    .testimonials {
+        height: 666px;
+    }
+}
+
+@media (max-width: 1199px) {
+    article, .blog-nav {
+        padding: 20.5px 29.27px;
+    }
+    
+    .comments {
+        padding: 27px 29px;
+    }
+}
