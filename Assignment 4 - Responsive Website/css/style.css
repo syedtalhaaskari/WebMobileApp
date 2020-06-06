@@ -142,6 +142,14 @@ footer a:hover {
     border-bottom: 4px solid #2296fb;
 }
 
+.services .service1 {
+    animation-delay: 0.25s;
+}
+.services .service2 {
+    animation-delay: 0.5s;
+}
+
+
 .service1 {
     animation-delay: 0.5s;
 }
